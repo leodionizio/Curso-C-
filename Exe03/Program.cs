@@ -44,7 +44,7 @@ namespace Exe03 {
             posCPF = func.FindIndex(x => x.cpf == cpf);
 
             if (posCPF == -1)
-                Console.WriteLine("CPF inexistente!");
+                Console.WriteLine("CPF inexistente! ");
             else {
                 Console.Write("Digite a % de aumento: ");
                 double porc = double.Parse(Console.ReadLine());
